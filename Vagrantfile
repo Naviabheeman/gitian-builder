@@ -12,7 +12,7 @@ echo "ok"
 SCRIPT
 
 archs = ["amd64", "i386"]
-ubuntu_suites = ["precise", "quantal", "raring", "saucy", "trusty", "xenial", "bionic"]
+ubuntu_suites = ["precise", "quantal", "raring", "saucy", "trusty", "xenial", "bionic", "focal", "jammy", "noble"]
 debian_suites = ["jessie", "stretch"]
 
 if ARGV[0] == "up" and ARGV.length == 1
